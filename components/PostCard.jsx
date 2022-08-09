@@ -44,7 +44,7 @@ const PostCard = ({ post }) => {
           href={`/post/${post.slug}`}
         >
           <span className='transition duration-500 transform hover:-translate-y-1 inline-block text-lg font-medium p-2 cursor-pointer text-gray-700 hover:text-black border-b-4 hover:border-blue-600'>
-            Continue Reading
+            Continuer à lire
           </span>
         </Link>
       </div>
