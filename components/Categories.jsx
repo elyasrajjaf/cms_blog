@@ -21,7 +21,7 @@ const Categories = () => {
           key={category.slug}
           href={`/category/${category.slug}`}
         >
-          <span className="cursor-pointer block pb-3 mb-3 text-md transition duration-500 hover:text-pink-600">
+          <span className="cursor-pointer block pb-3 mb-3 text-md transition duration-500 hover:text-blue-600">
             {category.name}
           </span>
         </Link>

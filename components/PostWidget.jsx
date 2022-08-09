@@ -30,7 +30,7 @@ const PostWidget = ({ categories, slug }) => {
               alt={post.title}
               height={"60px"}
               width={"60px"}
-              className="align-middle rounded-full"
+              className="align-middle rounded-lg"
               src={post.featuredImage.url}
             />
           </div>
@@ -40,7 +40,7 @@ const PostWidget = ({ categories, slug }) => {
             </p>
             <Link
               href={`/post/${post.slug}`} key={post.title} 
-            ><a className="text-md transition duration-500 hover:text-pink-600">{post.title}</a></Link>
+            ><a className="text-md transition duration-500 hover:text-blue-600">{post.title}</a></Link>
           </div>
         </div>
       ))}
