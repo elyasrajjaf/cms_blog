@@ -54,12 +54,12 @@ const CommentsForm = ({ slug }) => {
     <div className="bg-white rounded-2xl p-8 pb-12 mb-8">
       <h3 className="text-xl mb-8 font-semibold border-b pb-4"> Laisser un Commentaire</h3>
       {showSuccessMessage && 
-        <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
-          <span class="font-medium">Votre commentaire a été publié avec succès.</span> 
+        <div className="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
+          <span className="font-medium">Votre commentaire a été publié avec succès.</span> 
         </div>}
       {error && 
-        <div class="p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert">
-          <span class="font-medium">Tous les champs sont obligatoires.</span>
+        <div className="p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert">
+          <span className="font-medium">Tous les champs sont obligatoires.</span>
         </div>}
       <div className="grid grid-cols-1 gap-4 mb-4">
         <textarea ref={commentEl} className="p-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-300 bg-gray-100 text-gray-700" placeholder="Comment" name="comment"/>
