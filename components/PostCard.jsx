@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import moment from 'moment'
+import { grpahCMSImageLoader } from '../util';
 
 const PostCard = ({ post }) => {
   console.log(post)

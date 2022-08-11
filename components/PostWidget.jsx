@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/dist/client/image'
 import moment from 'moment'
+import { grpahCMSImageLoader } from '../util';
 
 import { getRecentPosts, getSimilarPosts } from '../services'
 
