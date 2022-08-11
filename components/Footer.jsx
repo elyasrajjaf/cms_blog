@@ -8,7 +8,7 @@ const Footer = () => {
             <p className='mb-5'>Contact me</p>
             <div className='flex justify-center gap-8'>
                 <Link
-                    href='https://github.com/elyasrajjaf'
+                    href='linkedin.com/in/elyas-rajjaf-b007731ba/'
                 >
                     <a className='text-xl transition duration-500 hover:text-blue-700' target="_blank"><BsLinkedin/></a>
                 </Link>
@@ -18,7 +18,7 @@ const Footer = () => {
                     <a className='text-xl transition duration-500 hover:text-blue-700' target="_blank"><BsGithub/></a>
                 </Link>
                 <Link
-                    href='https://github.com/elyasrajjaf'
+                    href='https://wa.me/0033605673276'
                 >
                     <a className='text-xl transition duration-500 hover:text-blue-700' target="_blank"><BsWhatsapp/></a>
                 </Link>
